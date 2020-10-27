@@ -1,0 +1,19 @@
+{
+  "name": "Scooby Doo PWA",
+  "short_name": "Scooby Doo PWA",
+  "description": "Bienvenidos a esta pequeña PWA sobre Scooby Doo con el fin de practicar esto de las nuevas tecnologías de las PWA",
+  "background_color": "#2b2b2b",
+  "theme_color": "#492782",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./img/icon_384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }
+  ]
+}

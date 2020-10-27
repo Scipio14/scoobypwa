@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Scooby";
+  src: url("./fonts/scooby.ttf");
+}
+
+:root {
+  --scooby-colour: #492782;
+  --second-colour: #d44910;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--second-colour);
+  background-color: var(--scooby-colour);
+}
+h1 {
+  font-family: "Scooby";
+  font-size: 2rem;
+  color: var(--second-colour);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header h1 {
+  word-wrap: break-word;
+}
+
+.header img {
+  /* ! Permite centrar los elementos de bloque*/
+  margin: 0 auto;
+  display: block;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.header nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+}
+
+.main {
+  position: relative;
+  /* ! otra vez elemento de bloque */
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* ?16:9*/
+}
+
+.main iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
