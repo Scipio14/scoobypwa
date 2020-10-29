@@ -36,7 +36,7 @@ h1 {
   /* ! Permite centrar los elementos de bloque*/
   margin: 0 auto;
   display: block;
-  max-width: 150px;
+  max-width: 300px;
   border-radius: 50%;
 }
 
@@ -60,4 +60,18 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.main-content {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.main-content img {
+  display: block;
+  margin: 0 auto;
+}
+
+#scooby3 {
+  margin-top: 2rem;
 }

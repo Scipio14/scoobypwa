@@ -9,7 +9,9 @@ const CACHE_NAME = "v1_Scooby_PWA",
     "./script.js",
     "./fonts/scooby.ttf",
     "./img/favicon.png",
+    "./img/scooby1.jpg",
     "./img/scooby3.jpg",
+    "./img/shaggy.jpg",
   ];
 
 self.addEventListener("install", (e) => {
