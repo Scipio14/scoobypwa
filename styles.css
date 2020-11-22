@@ -31,10 +31,15 @@ h1 {
   background-color: var(--scooby-colour);
   color: var(--second-colour);
   border-radius: 50%;
+  text-align: center;
 }
 
 .header h1 {
   margin: 0 auto;
+
+  text-align: center !important;
+}
+#h1 {
   text-align: center;
 }
 
@@ -82,11 +87,12 @@ h1 {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  border: thin solid black;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--scooby-color);
+  background: var(--scooby-color);
 }
 
 .menu {
@@ -114,9 +120,88 @@ h1 {
   color: var(--second-color);
   background-color: var(--main-modal-color);
 }
+/*Fin de la hamburguesa*/
 
-.logo {
-  margin-left: 2rem;
+/* Social menu */
+.social-menu {
+  height: 85px;
+  width: 85px;
+  background-color: var(--second-colour);
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 25rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 43px;
+  z-index: 3;
+  cursor: pointer;
+}
+.fa-share-alt {
+  position: relative;
+  top: 17px;
+  left: 19px;
+  color: white;
+}
+.menu-items {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin: auto;
+  top: 25rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.menu-items > div {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: relative;
+  font-size: 43px;
+  transition: 0.5% linear 0.5s;
+}
+.fab {
+  position: relative;
+  top: 17px;
+}
+a {
+  color: var(--second-colour);
+}
+.item2 {
+  bottom: 80px;
+}
+.item3 {
+  bottom: 160px;
+}
+.item4 {
+  bottom: 240px;
+}
+.item5 {
+  bottom: 320px;
+}
+.menu-items > div:hover {
+  background-color: var(--scooby-colour);
+}
+.menu-items > div:hover a {
+  color: white;
+}
+
+/* Fin de estilos social menu*/
+main iframe {
+  margin-top: 20rem;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.title img {
+  max-width: 100%;
+  height: auto;
 }
 
 #scooby3 {

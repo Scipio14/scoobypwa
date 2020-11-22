@@ -12,6 +12,7 @@ const CACHE_NAME = "v1_Scooby_PWA",
     "./img/scooby1.jpg",
     "./img/scooby3.jpg",
     "./img/shaggy.jpg",
+    "./index.js",
   ];
 
 self.addEventListener("install", (e) => {
