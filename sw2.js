@@ -1,6 +1,6 @@
 // asignar un nombre y versión al cache
 
-const CACHE_NAME = "v1_Scooby_PWA",
+const CACHE_NAME = "v2_Scooby_PWA",
   urlsToCache = [
     "./",
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css",
