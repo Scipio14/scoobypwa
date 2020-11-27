@@ -82,8 +82,8 @@ h1 {
 .panel-btn {
   position: fixed;
   z-index: 999;
-  bottom: 1vh;
-  right: 1vw;
+  bottom: 1%;
+  right: 1%;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
