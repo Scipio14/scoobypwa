@@ -29,7 +29,8 @@ video{
 
 }
 
-video{
+video,
+iframe{
   aspect-ratio: 1;
 
 }
